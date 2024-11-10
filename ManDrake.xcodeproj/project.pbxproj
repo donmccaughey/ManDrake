@@ -301,7 +301,6 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					F487F4A6141EADEF0093D633 = {
-						DevelopmentTeam = 5WX26Y89JP;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -893,7 +892,8 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 5WX26Y89JP;
+				DEVELOPMENT_TEAM = K39VF43BJL;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = K39VF43BJL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -924,7 +924,8 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 5WX26Y89JP;
+				DEVELOPMENT_TEAM = K39VF43BJL;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = K39VF43BJL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
