@@ -9,15 +9,12 @@
 /* Begin PBXBuildFile section */
 		EB0556708A55681D8CD43C6E /* libPods-ManDrake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92873E6389F9DBEBB6841DEB /* libPods-ManDrake.a */; };
 		F4296FFB1E06C77E002C25C4 /* mode-groff.js in Copy mode-groff.js */ = {isa = PBXBuildFile; fileRef = F45AFBD31C5193A900953D8F /* mode-groff.js */; };
-		F43557EB1C55413A009080DC /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = F43557EA1C554132009080DC /* dsa_pub.pem */; };
 		F45AFBD71C51950600953D8F /* CustomACEView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AFBD61C51950600953D8F /* CustomACEView.m */; };
 		F45AFBD91C52D04A00953D8F /* default.man in Resources */ = {isa = PBXBuildFile; fileRef = F45AFBD81C52D04A00953D8F /* default.man */; };
 		F45AFBDC1C53B9C000953D8F /* NSWorkspace+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AFBDB1C53B9C000953D8F /* NSWorkspace+Additions.m */; };
 		F45AFBDE1C53BA9200953D8F /* mandoc in Resources */ = {isa = PBXBuildFile; fileRef = F45AFBDD1C53BA9200953D8F /* mandoc */; };
 		F45AFBE21C53D53300953D8F /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = F45AFBE01C53D53300953D8F /* License.html */; };
 		F472E8A41F2A3A7B007F3EFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F472E8A31F2A3A7B007F3EFC /* Credits.rtf */; };
-		F4796732224FF75B00CA0746 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4796731224FF75B00CA0746 /* Sparkle.framework */; };
-		F4796734224FF7EA00CA0746 /* Sparkle.framework in Copy Bundled Frameworks */ = {isa = PBXBuildFile; fileRef = F4796731224FF75B00CA0746 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F4796737224FFB5400CA0746 /* DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F4796735224FFB5300CA0746 /* DocumentIcon.icns */; };
 		F4796738224FFB5400CA0746 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F4796736224FFB5400CA0746 /* AppIcon.icns */; };
 		F487F4AC141EADEF0093D633 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487F4AB141EADEF0093D633 /* Cocoa.framework */; };
@@ -48,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F4796734224FF7EA00CA0746 /* Sparkle.framework in Copy Bundled Frameworks */,
 			);
 			name = "Copy Bundled Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,12 +61,6 @@
 		F43557E01C543258009080DC /* mandrake_captain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mandrake_captain.jpg; sourceTree = "<group>"; };
 		F43557E11C543258009080DC /* mandrake_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mandrake_icon.png; sourceTree = "<group>"; };
 		F43557E31C54345B009080DC /* CHANGES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES.txt; sourceTree = SOURCE_ROOT; };
-		F43557E51C553C8E009080DC /* generate_keys.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = generate_keys.rb; sourceTree = "<group>"; };
-		F43557E61C553C8E009080DC /* ManDrakeAppcast.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ManDrakeAppcast.xml; sourceTree = "<group>"; };
-		F43557E71C553C8E009080DC /* sign_update.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = sign_update.rb; sourceTree = "<group>"; };
-		F43557E81C553C8E009080DC /* update_appcast.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = update_appcast.sh; sourceTree = "<group>"; };
-		F43557E91C554132009080DC /* dsa_priv.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_priv.pem; sourceTree = "<group>"; };
-		F43557EA1C554132009080DC /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		F442E0711EA7AB5A00BAD80C /* build_cat2html.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = build_cat2html.sh; path = "../../../dim/dim-clt/man/cat2html/build_cat2html.sh"; sourceTree = "<group>"; };
 		F45AFBD31C5193A900953D8F /* mode-groff.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "mode-groff.js"; path = "Resources/mode-groff.js"; sourceTree = "<group>"; };
 		F45AFBD51C51950600953D8F /* CustomACEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomACEView.h; sourceTree = "<group>"; };
@@ -82,7 +72,6 @@
 		F45AFBE01C53D53300953D8F /* License.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; lineEnding = 0; name = License.html; path = ManDrake/Resources/License.html; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
 		F45AFBFB1C53FBD500953D8F /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Common.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F472E8A31F2A3A7B007F3EFC /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = ManDrake/Resources/Credits.rtf; sourceTree = SOURCE_ROOT; };
-		F4796731224FF75B00CA0746 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		F4796735224FFB5300CA0746 /* DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = DocumentIcon.icns; path = Resources/DocumentIcon.icns; sourceTree = "<group>"; };
 		F4796736224FFB5400CA0746 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = Resources/AppIcon.icns; sourceTree = "<group>"; };
 		F486410A20CADDD7007E2BB6 /* mandrake_screenshot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mandrake_screenshot2.jpg; sourceTree = "<group>"; };
@@ -119,7 +108,6 @@
 				F487F4AC141EADEF0093D633 /* Cocoa.framework in Frameworks */,
 				F487F506141EAF8A0093D633 /* WebKit.framework in Frameworks */,
 				EB0556708A55681D8CD43C6E /* libPods-ManDrake.a in Frameworks */,
-				F4796732224FF75B00CA0746 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,27 +147,12 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		F43557E41C553C8E009080DC /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				F43557E91C554132009080DC /* dsa_priv.pem */,
-				F43557EA1C554132009080DC /* dsa_pub.pem */,
-				F43557E51C553C8E009080DC /* generate_keys.rb */,
-				F43557E61C553C8E009080DC /* ManDrakeAppcast.xml */,
-				F43557E71C553C8E009080DC /* sign_update.rb */,
-				F43557E81C553C8E009080DC /* update_appcast.sh */,
-				F4796731224FF75B00CA0746 /* Sparkle.framework */,
-			);
-			path = Sparkle;
-			sourceTree = "<group>";
-		};
 		F487F49C141EADEF0093D633 = {
 			isa = PBXGroup;
 			children = (
 				F4FD5CA01C4D74F900C8D155 /* Icons */,
 				F42AA7DC1C4EC624007E0ACE /* Documentation */,
 				F487F4B1141EADEF0093D633 /* ManDrake */,
-				F43557E41C553C8E009080DC /* Sparkle */,
 				F487F4AA141EADEF0093D633 /* Frameworks */,
 				F487F4A8141EADEF0093D633 /* Products */,
 				3D3A8111977051158E7CB7C0 /* Pods */,
@@ -334,7 +307,6 @@
 				F45AFBE21C53D53300953D8F /* License.html in Resources */,
 				F487F4D3141EAE730093D633 /* ManDrakeDocument.xib in Resources */,
 				F45AFBDE1C53BA9200953D8F /* mandoc in Resources */,
-				F43557EB1C55413A009080DC /* dsa_pub.pem in Resources */,
 				F4B7D9F8251004BE0025A779 /* cat2html in Resources */,
 				F4796737224FFB5400CA0746 /* DocumentIcon.icns in Resources */,
 				F4796738224FFB5400CA0746 /* AppIcon.icns in Resources */,
