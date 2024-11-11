@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D420F9892CE1A54A00B15344 /* cat2html.l in Sources */ = {isa = PBXBuildFile; fileRef = F487F53A141EDD560093D633 /* cat2html.l */; };
+		D420F98C2CE1A7B600B15344 /* cat2html in Resources */ = {isa = PBXBuildFile; fileRef = D420F9822CE1A50500B15344 /* cat2html */; };
 		EB0556708A55681D8CD43C6E /* libPods-ManDrake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92873E6389F9DBEBB6841DEB /* libPods-ManDrake.a */; };
 		F4296FFB1E06C77E002C25C4 /* mode-groff.js in Copy mode-groff.js */ = {isa = PBXBuildFile; fileRef = F45AFBD31C5193A900953D8F /* mode-groff.js */; };
 		F45AFBD71C51950600953D8F /* CustomACEView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45AFBD61C51950600953D8F /* CustomACEView.m */; };
@@ -24,10 +26,28 @@
 		F487F4D3141EAE730093D633 /* ManDrakeDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = F487F4D1141EAE730093D633 /* ManDrakeDocument.xib */; };
 		F487F506141EAF8A0093D633 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487F505141EAF8A0093D633 /* WebKit.framework */; };
 		F487F535141EB2560093D633 /* ManDrakeApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F487F534141EB2560093D633 /* ManDrakeApplicationDelegate.m */; };
-		F4B7D9F8251004BE0025A779 /* cat2html in Resources */ = {isa = PBXBuildFile; fileRef = F4B7D9F7251004BE0025A779 /* cat2html */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D420F98D2CE1A7DF00B15344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F487F49E141EADEF0093D633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D420F9812CE1A50500B15344;
+			remoteInfo = cat2html;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		D420F9802CE1A50500B15344 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F4296FFA1E06C770002C25C4 /* Copy mode-groff.js */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,7 +75,7 @@
 		1765B518EC55CEC9D2FA5110 /* Pods-ManDrake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManDrake.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManDrake/Pods-ManDrake.release.xcconfig"; sourceTree = "<group>"; };
 		1D8C3EB843CFB4099FEB1A6F /* Pods-ManDrake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManDrake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManDrake/Pods-ManDrake.debug.xcconfig"; sourceTree = "<group>"; };
 		92873E6389F9DBEBB6841DEB /* libPods-ManDrake.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManDrake.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D420F97D2CE1859C00B15344 /* build_cat2html.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_cat2html.sh; sourceTree = "<group>"; };
+		D420F9822CE1A50500B15344 /* cat2html */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cat2html; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42AA7DA1C4EC5D0007E0ACE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F43557DD1C5429C8009080DC /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		F43557DE1C5429C8009080DC /* DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DocumentIcon.icns; sourceTree = "<group>"; };
@@ -94,13 +114,19 @@
 		F487F53A141EDD560093D633 /* cat2html.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = cat2html.l; sourceTree = "<group>"; };
 		F4AFF3C8223EEC9100024B12 /* NSTask+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+Description.h"; sourceTree = "<group>"; };
 		F4AFF3C9223EEC9100024B12 /* NSTask+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+Description.m"; sourceTree = "<group>"; };
-		F4B7D9F7251004BE0025A779 /* cat2html */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cat2html; sourceTree = "<group>"; };
 		F4FD5CA11C4D74F900C8D155 /* make_icons.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = make_icons.sh; sourceTree = "<group>"; };
 		F4FD5CA21C4D74F900C8D155 /* ManDrakeAppIcon.ai */ = {isa = PBXFileReference; lastKnownFileType = text; path = ManDrakeAppIcon.ai; sourceTree = "<group>"; };
 		F4FD5CA41C4D74F900C8D155 /* ManDrakeAppIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManDrakeAppIcon1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D420F97F2CE1A50500B15344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F487F4A4141EADEF0093D633 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				F487F4A7141EADEF0093D633 /* ManDrake.app */,
+				D420F9822CE1A50500B15344 /* cat2html */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,9 +246,7 @@
 		F487F538141EDD560093D633 /* cat2html */ = {
 			isa = PBXGroup;
 			children = (
-				D420F97D2CE1859C00B15344 /* build_cat2html.sh */,
 				F487F53A141EDD560093D633 /* cat2html.l */,
-				F4B7D9F7251004BE0025A779 /* cat2html */,
 			);
 			path = cat2html;
 			sourceTree = "<group>";
@@ -241,6 +266,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D420F9812CE1A50500B15344 /* cat2html */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D420F9862CE1A50500B15344 /* Build configuration list for PBXNativeTarget "cat2html" */;
+			buildPhases = (
+				D420F97E2CE1A50500B15344 /* Sources */,
+				D420F97F2CE1A50500B15344 /* Frameworks */,
+				D420F9802CE1A50500B15344 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cat2html;
+			packageProductDependencies = (
+			);
+			productName = cat2html;
+			productReference = D420F9822CE1A50500B15344 /* cat2html */;
+			productType = "com.apple.product-type.tool";
+		};
 		F487F4A6141EADEF0093D633 /* ManDrake */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F487F4C8141EADEF0093D633 /* Build configuration list for PBXNativeTarget "ManDrake" */;
@@ -258,6 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D420F98E2CE1A7DF00B15344 /* PBXTargetDependency */,
 			);
 			name = ManDrake;
 			productName = ManDrake;
@@ -273,6 +318,9 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					D420F9812CE1A50500B15344 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					F487F4A6141EADEF0093D633 = {
 						ProvisioningStyle = Manual;
 					};
@@ -292,6 +340,7 @@
 			projectRoot = "";
 			targets = (
 				F487F4A6141EADEF0093D633 /* ManDrake */,
+				D420F9812CE1A50500B15344 /* cat2html */,
 			);
 		};
 /* End PBXProject section */
@@ -301,13 +350,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D420F98C2CE1A7B600B15344 /* cat2html in Resources */,
 				F45AFBD91C52D04A00953D8F /* default.man in Resources */,
 				F472E8A41F2A3A7B007F3EFC /* Credits.rtf in Resources */,
 				F487F4D2141EAE730093D633 /* MainMenu.xib in Resources */,
 				F45AFBE21C53D53300953D8F /* License.html in Resources */,
 				F487F4D3141EAE730093D633 /* ManDrakeDocument.xib in Resources */,
 				F45AFBDE1C53BA9200953D8F /* mandoc in Resources */,
-				F4B7D9F8251004BE0025A779 /* cat2html in Resources */,
 				F4796737224FFB5400CA0746 /* DocumentIcon.icns in Resources */,
 				F4796738224FFB5400CA0746 /* AppIcon.icns in Resources */,
 			);
@@ -747,6 +796,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D420F97E2CE1A50500B15344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D420F9892CE1A54A00B15344 /* cat2html.l in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F487F4A3141EADEF0093D633 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -761,7 +818,87 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D420F98E2CE1A7DF00B15344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D420F9812CE1A50500B15344 /* cat2html */;
+			targetProxy = D420F98D2CE1A7DF00B15344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D420F9872CE1A50500B15344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K39VF43BJL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ManDrake.cat2html;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D420F9882CE1A50500B15344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = K39VF43BJL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ManDrake.cat2html;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
 		F487F4C6141EADEF0093D633 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -922,6 +1059,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D420F9862CE1A50500B15344 /* Build configuration list for PBXNativeTarget "cat2html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D420F9872CE1A50500B15344 /* Debug */,
+				D420F9882CE1A50500B15344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F487F4A1141EADEF0093D633 /* Build configuration list for PBXProject "ManDrake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
