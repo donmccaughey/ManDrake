@@ -858,7 +858,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ManDrake.cat2html;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.ManDrake.cat2html;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -893,7 +893,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ManDrake.cat2html;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.ManDrake.cat2html;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -1000,6 +1000,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3.3.2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = K39VF43BJL;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = K39VF43BJL;
@@ -1014,8 +1015,8 @@
 				INFOPLIST_FILE = "ManDrake/ManDrake-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 3.3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ManDrake;
+				MARKETING_VERSION = "3.3.2-fork";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.ManDrake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -1032,6 +1033,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3.3.2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = K39VF43BJL;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = K39VF43BJL;
@@ -1046,8 +1048,8 @@
 				INFOPLIST_FILE = "ManDrake/ManDrake-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 3.3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ManDrake;
+				MARKETING_VERSION = "3.3.2-fork";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.donm.ManDrake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
